@@ -1,0 +1,18 @@
+---
+type Props = {
+    imageUrl ?: string
+    name ?:string
+    role?:string
+}
+
+const {imageUrl, name, role} = Astro.props;
+---
+
+
+<div class="text-center">
+    <img class="rounded w-full object-cover" src={imageUrl} alt={`Person ${name}`} />
+    <div class="mt-4 text-left">
+      <h5 class="font-bold">{name}</h5>
+      <h6 class="text-sm font-thin">{role}</h6>
+    </div>
+  </div>

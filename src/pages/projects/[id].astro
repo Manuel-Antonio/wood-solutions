@@ -1,0 +1,76 @@
+---
+import { projects } from "../../data/projects";
+import Layout from "../../layouts/Layout.astro";
+import type { Project } from "../../models/project";
+
+
+let {id} = Astro.params;
+let project: Project | undefined;
+
+if (id) {
+  project = projects.find((p) => p.id === Number(id));
+}
+
+
+---
+<Layout title={project ? project.title : "Proyecto no encontrado"}>
+  <section class="bg-project-header bg-cover bg-center h-72 flex items-center justify-center text-center text-white">
+    <div class="p-6 bg-black bg-opacity-50 rounded-lg">
+      <h1 class="text-3xl md:text-4xl font-bold mb-4">{project ? project.title : "Proyecto no encontrado"}</h1>
+      <p class="text-lg md:text-xl">{project ? project.description : "El proyecto que buscas no está disponible."}</p>
+    </div>
+  </section>
+
+  {project ? (
+    <main class="max-w-7xl mx-auto p-6 md:p-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Project Images -->
+        <div class="space-y-4">
+          {project.imageUrls?.map((url, index) => (
+            <img src={url} alt={`Imagen del proyecto ${index + 1}`} class="w-full h-64 object-cover rounded-lg shadow-md" />
+          ))}
+        </div>
+
+        <!-- Project Details -->
+        <div>
+          <h2 class="text-2xl font-bold mb-4">Detalles del Proyecto</h2>
+          {project.materials && project.materials.length > 0 && (
+            <div class="mb-4">
+              <h3 class="text-xl font-semibold mb-2">Materiales Utilizados</h3>
+              <ul class="list-disc pl-5 text-gray-700">
+                {project.materials.map((material) => (
+                  <li>{material}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {project.services && project.services.length > 0 && (
+            <div class="mb-4">
+              <h3 class="text-xl font-semibold mb-2">Servicios Ofrecidos</h3>
+              <ul class="list-disc pl-5 text-gray-700">
+                {project.services.map((service) => (
+                  <li>{service}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {project.testimonial && (
+            <div class="mt-6 border-t pt-4">
+              <h3 class="text-xl font-semibold mb-2">Testimonio</h3>
+              <p class="text-gray-700 italic">"{project.testimonial.feedback}"</p>
+              <p class="text-gray-700 font-semibold mt-2">- {project.testimonial.name}</p>
+            </div>
+          )}
+        </div>
+      </div>
+    </main>
+  ) : (
+    <main class="max-w-7xl mx-auto p-6 text-center">
+      <p class="text-gray-700">El proyecto que buscas no está disponible.</p>
+    </main>
+  )}
+</Layout>
+
+
+
+

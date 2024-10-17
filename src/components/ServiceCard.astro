@@ -1,0 +1,26 @@
+---
+type Props = {
+  name: string;
+  description: string;
+  icon: string;
+  color:string;
+};
+
+const { name, description, icon, color } = Astro.props;
+---
+
+<div 
+class:list={[
+    "rounded-lg text-white p-8 hover:shadow-lg transition text-center sm:text-left",
+    `${color}`
+]}>
+  <div class="flex justify-center mb-6">
+    <i class={`fas ${icon} h-24 w-24 flex items-center justify-center text-5xl`}
+    ></i>
+  </div>
+  <h3 class="text-xl font-bold mb-4">{name}</h3>
+  <p class="mb-6">
+    {description}
+  </p>
+</div>
+<style></style>

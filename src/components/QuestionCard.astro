@@ -1,0 +1,22 @@
+---
+type Props = {
+    question : string;
+    answer : string;
+    category ?: string;
+}
+
+const {question, answer, category} = Astro.props;
+---
+<div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <h3 class="text-xl font-semibold text-gray-800 mb-4">
+      {question}
+    </h3>
+    <p class="text-gray-600 text-sm sm:text-base mb-4">
+      {answer}
+    </p>
+    <div class="text-sm text-gray-500">
+      <span class="bg-red-100 text-red-500 py-1 px-3 rounded-full">
+        {category}
+      </span>
+    </div>
+  </div>
