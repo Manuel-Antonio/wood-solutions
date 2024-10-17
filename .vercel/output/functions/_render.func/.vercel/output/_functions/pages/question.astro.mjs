@@ -2,7 +2,7 @@
 import { c as createComponent, r as renderTemplate, m as maybeRenderHead, b as createAstro, d as renderComponent } from '../chunks/astro/server_BfSrewWf.mjs';
 import 'kleur/colors';
 import 'clsx';
-import { $ as $$Layout } from '../chunks/Layout_e7gBJXTU.mjs';
+import { $ as $$Layout } from '../chunks/Layout_C4AiLuE5.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$Astro = createAstro();
@@ -11,7 +11,7 @@ const $$QuestionCard = createComponent(($$result, $$props, $$slots) => {
   Astro2.self = $$QuestionCard;
   const { question, answer, category } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"> <h3 class="text-xl font-semibold text-gray-800 mb-4"> ${question} </h3> <p class="text-gray-600 text-sm sm:text-base mb-4"> ${answer} </p> <div class="text-sm text-gray-500"> <span class="bg-red-100 text-red-500 py-1 px-3 rounded-full"> ${category} </span> </div> </div>`;
-}, "C:/Users/USER/Desktop/ASTRO PROJECTS/elegant-spaces/src/components/QuestionCard.astro", void 0);
+}, "C:/Users/Magtanio/Documents/PROYECTOS/professional-furniture/src/components/QuestionCard.astro", void 0);
 
 const faqs = [{
   id: "1",
@@ -80,9 +80,9 @@ Muebles Artesanales y a Medida para Cada Espacio
 <a href="/contact" class="text-red-500 hover:underline">
 Contáctanos sin costo alguno.
 </a> </footer> </section> ` })}`;
-}, "C:/Users/USER/Desktop/ASTRO PROJECTS/elegant-spaces/src/pages/question.astro", void 0);
+}, "C:/Users/Magtanio/Documents/PROYECTOS/professional-furniture/src/pages/question.astro", void 0);
 
-const $$file = "C:/Users/USER/Desktop/ASTRO PROJECTS/elegant-spaces/src/pages/question.astro";
+const $$file = "C:/Users/Magtanio/Documents/PROYECTOS/professional-furniture/src/pages/question.astro";
 const $$url = "/question";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({

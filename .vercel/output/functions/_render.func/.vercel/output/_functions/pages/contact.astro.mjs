@@ -1,7 +1,7 @@
 /* empty css                                 */
 import { c as createComponent, r as renderTemplate, m as maybeRenderHead, a as addAttribute, b as createAstro, d as renderComponent } from '../chunks/astro/server_BfSrewWf.mjs';
 import 'kleur/colors';
-import { $ as $$Layout } from '../chunks/Layout_e7gBJXTU.mjs';
+import { $ as $$Layout } from '../chunks/Layout_C4AiLuE5.mjs';
 import { useState } from 'preact/hooks';
 import { jsxs, jsx } from 'preact/jsx-runtime';
 import 'clsx';
@@ -216,7 +216,7 @@ const $$ContactCard = createComponent(($$result, $$props, $$slots) => {
   Astro2.self = $$ContactCard;
   const { icon, bgColor, textColor, title, details } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<div class="flex flex-col sm:flex-row items-center gap-6"> <div${addAttribute(`flex items-center justify-center w-16 h-16 rounded-full ${bgColor} ${textColor}`, "class")}> <i${addAttribute(`${icon} text-2xl`, "class")}></i> </div> <div class=" text-center sm:text-left"> <h3 class="text-lg font-bold mt-4">${title}</h3> ${details.map((detail, index) => renderTemplate`<p class="text-gray-600 mt-2">${detail}</p>`)} </div> </div>`;
-}, "C:/Users/USER/Desktop/ASTRO PROJECTS/elegant-spaces/src/components/ContactCard.astro", void 0);
+}, "C:/Users/Magtanio/Documents/PROYECTOS/professional-furniture/src/components/ContactCard.astro", void 0);
 
 const $$Contact = createComponent(($$result, $$props, $$slots) => {
   const contactData = [
@@ -244,10 +244,10 @@ const $$Contact = createComponent(($$result, $$props, $$slots) => {
   ];
   return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Contacto" }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<section class="text-center max-w-5xl mx-auto px-6"> <p class="text-sm font-bold text-red-500 mb-2 uppercase tracking-widest leading-tight">Contacta con nosotros</p> <h1 class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-4">
 Consultoría en cuestión de minutos
-</h1> <img class="w-full mt-8 sm:mt-12 md:mt-16 h-64 sm:h-80 md:h-96 object-cover object-center sm:object-bottom rounded-lg" src="https://images.pexels.com/photos/46924/pexels-photo-46924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Consulting Team"> </section> <section class="max-w-5xl mx-auto px-6 mt-12 sm:mt-16 md:mt-20"> <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-12"> ${contactData.map((data) => renderTemplate`${renderComponent($$result2, "ContactCard", $$ContactCard, { "icon": data.icon, "bgColor": data.bgColor, "textColor": data.textColor, "title": data.title, "details": data.details })}`)} </div> <!-- Contact Form --> ${renderComponent($$result2, "FormCard", FormCard, { "client:visible": true, "client:component-hydration": "visible", "client:component-path": "C:/Users/USER/Desktop/ASTRO PROJECTS/elegant-spaces/src/components/FormCard", "client:component-export": "default" })} </section> ` })}`;
-}, "C:/Users/USER/Desktop/ASTRO PROJECTS/elegant-spaces/src/pages/contact.astro", void 0);
+</h1> <img class="w-full mt-8 sm:mt-12 md:mt-16 h-64 sm:h-80 md:h-96 object-cover object-center sm:object-bottom rounded-lg" src="https://images.pexels.com/photos/46924/pexels-photo-46924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Consulting Team"> </section> <section class="max-w-5xl mx-auto px-6 mt-12 sm:mt-16 md:mt-20"> <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-12"> ${contactData.map((data) => renderTemplate`${renderComponent($$result2, "ContactCard", $$ContactCard, { "icon": data.icon, "bgColor": data.bgColor, "textColor": data.textColor, "title": data.title, "details": data.details })}`)} </div> <!-- Contact Form --> ${renderComponent($$result2, "FormCard", FormCard, { "client:visible": true, "client:component-hydration": "visible", "client:component-path": "C:/Users/Magtanio/Documents/PROYECTOS/professional-furniture/src/components/FormCard", "client:component-export": "default" })} </section> ` })}`;
+}, "C:/Users/Magtanio/Documents/PROYECTOS/professional-furniture/src/pages/contact.astro", void 0);
 
-const $$file = "C:/Users/USER/Desktop/ASTRO PROJECTS/elegant-spaces/src/pages/contact.astro";
+const $$file = "C:/Users/Magtanio/Documents/PROYECTOS/professional-furniture/src/pages/contact.astro";
 const $$url = "/contact";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({

@@ -1,7 +1,7 @@
 /* empty css                                 */
 import { c as createComponent, r as renderTemplate, m as maybeRenderHead, a as addAttribute, b as createAstro, d as renderComponent } from '../chunks/astro/server_BfSrewWf.mjs';
 import 'kleur/colors';
-import { $ as $$Layout } from '../chunks/Layout_e7gBJXTU.mjs';
+import { $ as $$Layout } from '../chunks/Layout_C4AiLuE5.mjs';
 import 'clsx';
 /* empty css                                 */
 export { renderers } from '../renderers.mjs';
@@ -49,7 +49,7 @@ const $$PersonCard = createComponent(($$result, $$props, $$slots) => {
   Astro2.self = $$PersonCard;
   const { imageUrl, name, role } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<div class="text-center"> <img class="rounded w-full object-cover"${addAttribute(imageUrl, "src")}${addAttribute(`Person ${name}`, "alt")}> <div class="mt-4 text-left"> <h5 class="font-bold">${name}</h5> <h6 class="text-sm font-thin">${role}</h6> </div> </div>`;
-}, "C:/Users/USER/Desktop/ASTRO PROJECTS/elegant-spaces/src/components/PersonCard.astro", void 0);
+}, "C:/Users/Magtanio/Documents/PROYECTOS/professional-furniture/src/components/PersonCard.astro", void 0);
 
 const $$About = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Acerca de nuestra empresa", "data-astro-cid-kh7btl4r": true }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<section class="text-center max-w-5xl mx-auto px-6" data-astro-cid-kh7btl4r> <p class="text-sm font-bold text-red-500 mb-2 uppercase tracking-widest leading-tight" data-astro-cid-kh7btl4r>Nuestra historia</p> <h1 class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-4" data-astro-cid-kh7btl4r>
@@ -66,9 +66,9 @@ Con una amplia variedad de bloques personalizados, puedes participar en el dise√
                 our team ?</h5> <a href="/" class="mt-3 inline-block font-bold text-red-500 hover:text-red-600 transition-all duration-100" data-astro-cid-kh7btl4r>
 Apply now
 <i class="ms-4 fa-solid fa-arrow-right" data-astro-cid-kh7btl4r></i> </a> </div> </div> </div> </section> ` })} `;
-}, "C:/Users/USER/Desktop/ASTRO PROJECTS/elegant-spaces/src/pages/about.astro", void 0);
+}, "C:/Users/Magtanio/Documents/PROYECTOS/professional-furniture/src/pages/about.astro", void 0);
 
-const $$file = "C:/Users/USER/Desktop/ASTRO PROJECTS/elegant-spaces/src/pages/about.astro";
+const $$file = "C:/Users/Magtanio/Documents/PROYECTOS/professional-furniture/src/pages/about.astro";
 const $$url = "/about";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
