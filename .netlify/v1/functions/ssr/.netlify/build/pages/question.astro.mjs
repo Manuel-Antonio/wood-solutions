@@ -3,7 +3,7 @@ import { c as createComponent, r as renderTemplate, m as maybeRenderHead, b as c
 import 'kleur/colors';
 import 'html-escaper';
 import 'clsx';
-import { $ as $$Layout } from '../chunks/Layout_VExZ1wIW.mjs';
+import { $ as $$Layout } from '../chunks/Layout_Dcn087oi.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$Astro = createAstro();

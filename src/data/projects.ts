@@ -12,10 +12,10 @@ export const projects: Project[] = [
       feedback: "La mesa es impresionante, hecha con gran detalle y calidad. Superó nuestras expectativas."
     },
     imageUrls: [
-      "https://example.com/images/project1-1.jpg",
-      "https://example.com/images/project1-2.jpg"
+      "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_009036/tienda_009036_3bfd2b2c73607b04d13bade84db6cb0e8178dbff_producto_large_90.jpeg?not-from-cache-please",
+      "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_009036/tienda_009036_3bfd2b2c73607b04d13bade84db6cb0e8178dbff_producto_large_90.jpeg?not-from-cache-please"
     ],
-    featureImage: "https://example.com/images/project1-main.jpg"
+    featureImage: "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_009036/tienda_009036_3bfd2b2c73607b04d13bade84db6cb0e8178dbff_producto_large_90.jpeg?not-from-cache-please"
   },
   {
     id: 2,
@@ -28,10 +28,10 @@ export const projects: Project[] = [
       feedback: "El trabajo de restauración fue excelente. La silla parece nueva, pero con el encanto antiguo que buscábamos."
     },
     imageUrls: [
-      "https://example.com/images/project2-1.jpg",
-      "https://example.com/images/project2-2.jpg"
+      "https://img.freepik.com/vector-gratis/ilustracion-vector-silla-lateral-vintage-remezclada-obra-arte-ferdinand-cartier_53876-151107.jpg",
+      "https://img.freepik.com/vector-gratis/ilustracion-vector-silla-lateral-vintage-remezclada-obra-arte-ferdinand-cartier_53876-151107.jpg"
     ],
-    featureImage: "https://example.com/images/project2-main.jpg"
+    featureImage: "https://img.freepik.com/vector-gratis/ilustracion-vector-silla-lateral-vintage-remezclada-obra-arte-ferdinand-cartier_53876-151107.jpg"
   },
   {
     id: 3,
@@ -44,10 +44,10 @@ export const projects: Project[] = [
       feedback: "La mini-casa es perfecta para nuestro jardín. La calidad de la construcción y el diseño superaron nuestras expectativas."
     },
     imageUrls: [
-      "https://example.com/images/project3-1.jpg",
-      "https://example.com/images/project3-2.jpg"
+      "https://www.sandiegouniontribune.com/wp-content/uploads/migration/2020/04/20/00000171-898c-dc4c-a173-fbfdd9310000.jpg?w=535",
+      "https://www.sandiegouniontribune.com/wp-content/uploads/migration/2020/04/20/00000171-898c-dc4c-a173-fbfdd9310000.jpg?w=535"
     ],
-    featureImage: "https://example.com/images/project3-main.jpg"
+    featureImage: "https://www.sandiegouniontribune.com/wp-content/uploads/migration/2020/04/20/00000171-898c-dc4c-a173-fbfdd9310000.jpg?w=535"
   },
   {
     id: 4,
@@ -60,10 +60,10 @@ export const projects: Project[] = [
       feedback: "El piso de cemento pulido transformó completamente la sala. Excelente trabajo y acabado duradero."
     },
     imageUrls: [
-      "https://example.com/images/project4-1.jpg",
-      "https://example.com/images/project4-2.jpg"
+      "https://cementostorices.com/assets/images/webp/construccion/pulido-de-concreto-usos-y-beneficios/personal-aplicando-resina-epoxica-para-proteger-el-pulido-de-concreto_02.webp",
+      "https://cementostorices.com/assets/images/webp/construccion/pulido-de-concreto-usos-y-beneficios/personal-aplicando-resina-epoxica-para-proteger-el-pulido-de-concreto_02.webp"
     ],
-    featureImage: "https://example.com/images/project4-main.jpg"
+    featureImage: "https://cementostorices.com/assets/images/webp/construccion/pulido-de-concreto-usos-y-beneficios/personal-aplicando-resina-epoxica-para-proteger-el-pulido-de-concreto_02.webp"
   },
   {
     id: 5,
@@ -76,9 +76,9 @@ export const projects: Project[] = [
       feedback: "La nueva cocina es increíble. El diseño es perfecto para nuestro espacio y la instalación fue impecable."
     },
     imageUrls: [
-      "https://example.com/images/project5-1.jpg",
-      "https://example.com/images/project5-2.jpg"
+      "https://www.tucasaperu.com/img_servicios/servicios_imagenes_7_RznKt.png",
+      "https://www.tucasaperu.com/img_servicios/servicios_imagenes_7_RznKt.png"
     ],
-    featureImage: "https://example.com/images/project5-main.jpg"
+    featureImage: "https://www.tucasaperu.com/img_servicios/servicios_imagenes_7_RznKt.png"
   }
 ];

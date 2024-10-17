@@ -2,7 +2,7 @@
 import { c as createComponent, r as renderTemplate, m as maybeRenderHead, a as addAttribute, b as createAstro, d as renderComponent } from '../chunks/astro/server_FcOIbzSd.mjs';
 import 'kleur/colors';
 import 'html-escaper';
-import { $ as $$Layout } from '../chunks/Layout_VExZ1wIW.mjs';
+import { $ as $$Layout } from '../chunks/Layout_Dcn087oi.mjs';
 import { useState } from 'preact/hooks';
 import { jsxs, jsx } from 'preact/jsx-runtime';
 import 'clsx';

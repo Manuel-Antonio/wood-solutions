@@ -2,7 +2,7 @@
 import { c as createComponent, r as renderTemplate, d as renderComponent, m as maybeRenderHead } from '../chunks/astro/server_FcOIbzSd.mjs';
 import 'kleur/colors';
 import 'html-escaper';
-import { s as servicios, $ as $$Layout } from '../chunks/Layout_VExZ1wIW.mjs';
+import { s as servicios, $ as $$Layout } from '../chunks/Layout_Dcn087oi.mjs';
 import { $ as $$ServiceCard } from '../chunks/ServiceCard_DDpYVIh5.mjs';
 export { renderers } from '../renderers.mjs';
 
